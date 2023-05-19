@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Test</title>
+<link href="css/reset.css" rel="stylesheet" type="text/css"/>
+<link href="css/test.css" rel="stylesheet" type="text/css"/>
+<link href="css/fontello.css" rel="stylesheet" type="text/css"/>
+<script src="jquery/jquery.js"></script>
+
+</head>
+
+
+<!-- LeerBBDD();-->
+
+
+<body onload="LeerBBDD();">
+      <header>
+        <h1>EXAMEN TIPO TEST</h1>
+        <h3>Para la realización de la prueba complete el cuestionario y una vez terminado pulse en corregir</h3>
+
+      </header>
+<main>
+<br>
+<section class="contenedor">
+ 
+  <table id="cuestionario">
+    <caption>C U E S T I O N A R I O</caption>
+    <thead>
+      <tr>
+        <th class="c1">Nº</th>
+        <th colspan="3">Preguntas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- ********************************************* 1 ******************************************************* -->
+     <tr class="pregunta">
+      <td class="c1 bgP">1º)</td>
+      <td colspan="3" class="bgP" id="p0">Quién formuló la ecuación E=m*c<sup>2</sup></td>
+     </tr>   
+     <tr class="opcion">
+      <td class="c1 Cad Cgris" id="v0a">a)</td>
+      <td class="c1 Cac Cgris"><input type="radio" name="p0" value="a"></td>
+      <td colspan="2" class="Cgris" id="p0a">Alberto de Mónaco</td>
+     </tr>
+     <tr class="opcion">
+      <td class="c1 Cad Cblan" id="v0b">b)</td>
+      <td class="c1 Cac Cblan"><input type="radio" name="p0" value="b"></td>
+      <td colspan="2" class="Cblan" id="p0b">Paquirrín</td>
+     </tr>
+     <tr class="opcion">
+      <td class="c1 Cad Cgris" id="v0c">c)</td>
+      <td class="c1 Cac Cgris"><input type="radio" name="p0" value="c"></td>
+      <td class="Cgris" colspan="2" id="p0c">Manolo el del bombo</td>
+     </tr>
+     <tr class="opcion">
+      <td class="c1 Cad Cblan uop" id="v0d">d)</td>
+      <td class="c1 Cac Cblan uop"><input type="radio" name="p0" value="d"></td>
+      <td class="Cblan uop" colspan="2" id="p0d">Alberto Einstein</td>
+     </tr>
+     <!-- ********************************************* 2 ******************************************************* -->
+     <tr class="pregunta">
+      <td class="c1 bgP">2º)</td>
+      <td colspan="3" class="bgP" id="p1">Quién formuló la ecuación E=m*c<sup>2</sup></td>
+     </tr>   
+     <tr class="opcion">
+      <td class="c1 Cad Cgris" id="v1a">a)</td>
+      <td class="c1 Cac Cgris"><input type="radio" name="p1" value="a"></td>
+      <td colspan="2" class="Cgris" id="p1a">Alberto de Mónaco</td>
+     </tr>
+     <tr class="opcion">
+      <td class="c1 Cad Cblan" id="v1b">b)</td>
+      <td class="c1 Cac Cblan"><input type="radio" name="p1" value="b"></td>
+      <td colspan="2" class="Cblan" id="p1b">Paquirrín</td>
+     </tr>
+     <tr class="opcion">
+      <td class="c1 Cad Cgris" id="v1c">c)</td>
+      <td class="c1 Cac Cgris"><input type="radio" name="p1" value="c"></td>
+      <td class="Cgris" colspan="2" id="p1c">Manolo el del bombo</td>
+     </tr>
+     <tr class="opcion">
+      <td class="c1 Cad Cblan uop" id="v1d">d)</td>
+      <td class="c1 Cac Cblan uop"><input type="radio" name="p1" value="d"></td>
+      <td class="Cblan uop" colspan="2" id="p1d">Alberto Einstein</td>
+     </tr>
+     <!-- ***************  3 *********** -->
+     <tr class="pregunta">
+      <td class="c1 bgP">3º)</td>
+      <td colspan="3" class="bgP" id="p2">Quién formuló la ecuación E=m*c<sup>2</sup></td>
+     </tr>   
+     <tr class="opcion">
+      <td class="c1 Cad Cgris" id="v2a">a)</td>
+      <td class="c1 Cac Cgris"><input type="radio" name="p2" value="a"></td>
+      <td colspan="2" class="Cgris" id="p2a">Alberto de Mónaco</td>
+     </tr>
+     <tr class="opcion">
+      <td class="c1 Cad Cblan" id="v2b">b)</td>
+      <td class="c1 Cac Cblan"><input type="radio" name="p2" value="b"></td>
+      <td colspan="2" class="Cblan" id="p2b">Paquirrín</td>
+     </tr>
+     <tr class="opcion">
+      <td class="c1 Cad Cgris" id="v2c">c)</td>
+      <td class="c1 Cac Cgris"><input type="radio" name="p2" value="c"></td>
+      <td class="Cgris" colspan="2" id="p2c">Manolo el del bombo</td>
+     </tr>
+     <tr class="opcion">
+      <td class="c1 Cad Cblan uop" id="v2d">d)</td>
+      <td class="c1 Cac Cblan uop"><input type="radio" name="p2" value="d"></td>
+      <td class="Cblan uop" colspan="2" id="p2d">Alberto Einstein</td>
+     </tr>
+
+     <!-- ***************** 4 ********* -->
+     <tr class="pregunta">
+      <td class="c1 bgP">4º)</td>
+      <td colspan="3" class="bgP" id="p3">Quién formuló la ecuación E=m*c<sup>2</sup></td>
+     </tr>   
+     <tr class="opcion">
+      <td class="c1 Cad Cgris" id="v3a">a)</td>
+      <td class="c1 Cac Cgris"><input type="radio" name="p3" value="a"></td>
+      <td colspan="2" class="Cgris" id="p3a">Alberto de Mónaco</td>
+     </tr>
+     <tr class="opcion">
+      <td class="c1 Cad Cblan" id="v3b">b)</td>
+      <td class="c1 Cac Cblan"><input type="radio" name="p3" value="b"></td>
+      <td colspan="2" class="Cblan" id="p3b">Paquirrín</td>
+     </tr>
+     <tr class="opcion">
+      <td class="c1 Cad Cgris" id="v3c">c)</td>
+      <td class="c1 Cac Cgris"><input type="radio" name="p3" value="c"></td>
+      <td class="Cgris" colspan="2" id="p3c">Manolo el del bombo</td>
+     </tr>
+     <tr class="opcion">
+      <td class="c1 Cad Cblan uop" id="v3d">d)</td>
+      <td class="c1 Cac Cblan uop"><input type="radio" name="p3" value="d"></td>
+      <td class="Cblan uop" colspan="2" id="p3d">Alberto Einstein</td>
+     </tr>
+     <!-- ***************** 5 ********* -->
+     <tr class="pregunta">
+      <td class="c1 bgP">5º)</td>
+      <td colspan="3" class="bgP" id="p4">Quién formuló la ecuación E=m*c<sup>2</sup></td>
+     </tr>   
+     <tr class="opcion">
+      <td class="c1 Cad Cgris" id="v4a">a)</td>
+      <td class="c1 Cac Cgris"><input type="radio" name="p4" value="a"></td>
+      <td colspan="2" class="Cgris" id="p4a">Alberto de Mónaco</td>
+     </tr>
+     <tr class="opcion">
+      <td class="c1 Cad Cblan" id="v4b">b)</td>
+      <td class="c1 Cac Cblan"><input type="radio" name="p4" value="b"></td>
+      <td colspan="2" class="Cblan" id="p4b">Paquirrín</td>
+     </tr>
+     <tr class="opcion">
+      <td class="c1 Cad Cgris" id="v4c">c)</td>
+      <td class="c1 Cac Cgris"><input type="radio" name="p4" value="c"></td>
+      <td class="Cgris" colspan="2" id="p4c">Manolo el del bombo</td>
+     </tr>
+     <tr class="opcion">
+      <td class="c1 Cad Cblan uop" id="v4d">d)</td>
+      <td class="c1 Cac Cblan uop"><input type="radio" name="p4" value="d"></td>
+      <td class="Cblan uop" colspan="2" id="p4d">Alberto Einstein</td>
+     </tr>
+     <!-- **************** 6 ********** -->
+     <tr class="pregunta">
+      <td class="c1 bgP">6º)</td>
+      <td colspan="3" class="bgP" id="p5">Quién formuló la ecuación E=m*c<sup>2</sup></td>
+     </tr>   
+     <tr class="opcion">
+      <td class="c1 Cad Cgris" id="v5a">a)</td>
+      <td class="c1 Cac Cgris"><input type="radio" name="p5" value="a"></td>
+      <td colspan="2" class="Cgris" id="p5a">Alberto de Mónaco</td>
+     </tr>
+     <tr class="opcion">
+      <td class="c1 Cad Cblan" id="v5b">b)</td>
+      <td class="c1 Cac Cblan"><input type="radio" name="p5" value="b"></td>
+      <td colspan="2" class="Cblan" id="p5b">Paquirrín</td>
+     </tr>
+     <tr class="opcion">
+      <td class="c1 Cad Cgris" id="v5c">c)</td>
+      <td class="c1 Cac Cgris"><input type="radio" name="p5" value="c"></td>
+      <td class="Cgris" colspan="2" id="p5c">Manolo el del bombo</td>
+     </tr>
+     <tr class="opcion">
+      <td class="c1 Cad Cblan uop" id="v5d">d)</td>
+      <td class="c1 Cac Cblan uop"><input type="radio" name="p5" value="d"></td>
+      <td class="Cblan uop" colspan="2" id="p5d">Alberto Einstein</td>
+     </tr>
+     <!-- **************** 7 ********** -->
+     <tr class="pregunta">
+      <td class="c1 bgP">7º)</td>
+      <td colspan="3" class="bgP" id="p6">Quién formuló la ecuación E=m*c<sup>2</sup></td>
+     </tr>   
+     <tr class="opcion">
+      <td class="c1 Cad Cgris" id="v6a">a)</td>
+      <td class="c1 Cac Cgris"><input type="radio" name="p6" value="a"></td>
+      <td colspan="2" class="Cgris" id="p6a">Alberto de Mónaco</td>
+     </tr>
+     <tr class="opcion">
+      <td class="c1 Cad Cblan" id="v6b">b)</td>
+      <td class="c1 Cac Cblan"><input type="radio" name="p6" value="b"></td>
+      <td colspan="2" class="Cblan" id="p6b">Paquirrín</td>
+     </tr>
+     <tr class="opcion">
+      <td class="c1 Cad Cgris" id="v6c">c)</td>
+      <td class="c1 Cac Cgris"><input type="radio" name="p6" value="c"></td>
+      <td class="Cgris" colspan="2" id="p6c">Manolo el del bombo</td>
+     </tr>
+     <tr class="opcion">
+      <td class="c1 Cad Cblan uop" id="v6d">d)</td>
+      <td class="c1 Cac Cblan uop"><input type="radio" name="p6" value="d"></td>
+      <td class="Cblan uop" colspan="2" id="p6d">Alberto Einstein</td>
+     </tr>
+     <!-- ****************** 8 ******** -->
+     <tr class="pregunta">
+      <td class="c1 bgP">8º)</td>
+      <td colspan="3" class="bgP" id="p7">Quién formuló la ecuación E=m*c<sup>2</sup></td>
+     </tr>   
+     <tr class="opcion">
+      <td class="c1 Cad Cgris" id="v7a">a)</td>
+      <td class="c1 Cac Cgris"><input type="radio" name="p7" value="a"></td>
+      <td colspan="2" class="Cgris" id="p7a">Alberto de Mónaco</td>
+     </tr>
+     <tr class="opcion">
+      <td class="c1 Cad Cblan" id="v7b">b)</td>
+      <td class="c1 Cac Cblan"><input type="radio" name="p7" value="b"></td>
+      <td colspan="2" class="Cblan" id="p7b">Paquirrín</td>
+     </tr>
+     <tr class="opcion">
+      <td class="c1 Cad Cgris" id="v7c">c)</td>
+      <td class="c1 Cac Cgris"><input type="radio" name="p7" value="c"></td>
+      <td class="Cgris" colspan="2" id="p7c">Manolo el del bombo</td>
+     </tr>
+     <tr class="opcion">
+      <td class="c1 Cad Cblan uop" id="v7d">d)</td>
+      <td class="c1 Cac Cblan uop"><input type="radio" name="p7" value="d"></td>
+      <td class="Cblan uop" colspan="2" id="p7d">Alberto Einstein</td>
+     </tr>
+     <!-- ******************** 9 ****** -->
+     <tr class="pregunta">
+      <td class="c1 bgP">9º)</td>
+      <td colspan="3" class="bgP" id="p8">Quién formuló la ecuación E=m*c<sup>2</sup></td>
+     </tr>   
+     <tr class="opcion">
+      <td class="c1 Cad Cgris" id="v8a">a)</td>
+      <td class="c1 Cac Cgris"><input type="radio" name="p8" value="a"></td>
+      <td colspan="2" class="Cgris" id="p8a">Alberto de Mónaco</td>
+     </tr>
+     <tr class="opcion">
+      <td class="c1 Cad Cblan" id="v8b">b)</td>
+      <td class="c1 Cac Cblan"><input type="radio" name="p8" value="b"></td>
+      <td colspan="2" class="Cblan" id="p8b">Paquirrín</td>
+     </tr>
+     <tr class="opcion">
+      <td class="c1 Cad Cgris" id="v8c">c)</td>
+      <td class="c1 Cac Cgris"><input type="radio" name="p8" value="c"></td>
+      <td class="Cgris" colspan="2" id="p8c">Manolo el del bombo</td>
+     </tr>
+     <tr class="opcion">
+      <td class="c1 Cad Cblan uop" id="v8d">d)</td>
+      <td class="c1 Cac Cblan uop"><input type="radio" name="p8" value="d"></td>
+      <td class="Cblan uop" colspan="2" id="p8d">Alberto Einstein</td>
+     </tr>
+     <!-- ****************** 10  ******** -->
+     <tr class="pregunta">
+      <td class="c1 bgP">10º)</td>
+      <td colspan="3" class="bgP" id="p9">Quién formuló la ecuación E=m*c<sup>2</sup></td>
+     </tr>   
+     <tr class="opcion">
+      <td class="c1 Cad Cgris" id="v9a">a)</td>
+      <td class="c1 Cac Cgris"><input type="radio" name="p9" value="a"></td>
+      <td colspan="2" class="Cgris" id="p9a">Alberto de Mónaco</td>
+     </tr>
+     <tr class="opcion">
+      <td class="c1 Cad Cblan" id="v9b">b)</td>
+      <td class="c1 Cac Cblan"><input type="radio" name="p9" value="b"></td>
+      <td colspan="2" class="Cblan" id="p9b">Paquirrín</td>
+     </tr>
+     <tr class="opcion">
+      <td class="c1 Cad Cgris" id="v9c">c)</td>
+      <td class="c1 Cac Cgris"><input type="radio" name="p9" value="c"></td>
+      <td class="Cgris" colspan="2" id="p9c">Manolo el del bombo</td>
+     </tr>
+     <tr class="opcion">
+      <td class="c1 Cad Cblan" id="v9d">d)</td>
+      <td class="c1 Cac Cblan"><input type="radio" name="p9" value="d"></td>
+      <td class="Cblan" colspan="2" id="p9d">Alberto Einstein</td>
+     </tr>
+     <!-- ******************************** -->
+    </tbody>
+  </table>
+
+</section>
+<br/><br/>
+<section>
+  <div class="botonera">
+    <input type="button" id="nuevotest" value="Nuevo Test" onclick="NuevoTest(Rjson);"/>
+    <input type="button" id="deltest" value="Limpiar Test" onclick="Limpiar(0);"/>
+    <input type="button" id="corregir" value="Corregir Test" onclick="EvaluarTest();"/>
+  </div>
+</section>
+
+<br/><br/>
+<section>
+  <div id="calificacion">
+    <h2 id="nota"></h2>
+  </div>
+</section>
+
+</main>
+
+
+
+<script src="js/globales.js" language="javascript" text="text/javascript"></script>
+<script src="js/ajax.js" language="javascript" text="text/javascript"></script>
+
+
+</body>
+<script src="js/test.js" language="javascript" text="text/javascript"></script>
+</html>

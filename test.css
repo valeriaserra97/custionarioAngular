@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* CSS Document */
+/***************************************************************************************************/
+html{
+    width: 100vw;
+   height: 100vh;
+    background-color: rgb(118, 14, 35);
+}
+
+
+body{
+   
+    width: 95%;
+    height: 2200px;
+    background-color:ivory;
+    position:relative;
+    top:-30px;
+    margin:auto;
+
+}
+
+main{
+    background-color:transparent;
+   
+}
+
+header{
+   color:rgba(156, 4, 56, 0.899);
+    margin:auto;
+    text-align: center;
+}
+
+h1{
+    position:relative;
+    top:35px;
+    font-size: 2.5em;
+    text-decoration: underline;
+    text-shadow:2px 2px 5px grey;
+    margin: 35px;
+}
+
+header h3{
+    position:relative;
+    top:35px;
+   font-size: 1.2em;
+}
+
+
+.contenedor{
+    position:relative;
+    top:30px;
+    margin:auto !important;
+    
+    border-color: #9c0438;
+    border-bottom:1px solid;
+    border-left:1px solid;
+    border-right:1px solid;
+    box-shadow: 4px 5px 12px #777;
+    width: 100%;
+    max-width: 1500px;
+    border: 0px solid magenta;
+}
+  
+
+
+
+/*********************************    tabla *********************************/
+#cuestionario{
+margin:auto;
+width: 99.99%;
+}
+
+caption{
+ background-color:rgba(156, 4, 56, 0.899);
+ border-bottom:5px solid #fcce0a;
+ color:#fcce0a;
+ line-height: 1.8em;
+ margin-bottom:2px;
+  }
+
+
+thead{
+	background:rgba(156, 4, 56, 0.899);
+    border-bottom:2px solid #9c0438;
+	color:ivory;
+    line-height: 1.5em;
+}
+
+thead th{border-right:1px solid ivory;}
+
+
+tbody td{
+    background-color: azure;
+    border:0px solid rgba(156, 4, 56, 0.899);
+    font-size: 1.1em;
+    line-height: 1.8em;
+}
+
+.c1{
+    width:5%;
+}
+.pregunta{
+    font-size: 1.2em;
+    font-weight: bold;
+    
+}
+
+
+
+.Cad {text-align: right;  }
+.Cai {text-align: left;  }
+.Cac {text-align: center;  }
+/*=========================formato background para celdas ===============*/
+.Cgris {background:rgba(251, 252, 229, 0.911); }
+.Cblan{background:rgba(231, 245, 244, 0.7); }
+
+
+.bgP{
+    background-color: rgb(193, 236, 247);
+    margin-bottom: 5px;
+}
+
+.bgP.c1{
+    padding-left: 15px;
+}
+
+
+.uop{
+    line-height: 2em;
+    border-bottom: 1px solid gray;
+}
+
+
+
+.botonera{
+    width: 90%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height:100px;
+    background-color: #9c0438;
+    border-radius: 15px;
+
+    position:relative;
+    top:30px;
+    margin:auto !important;
+    
+    
+    box-shadow: 4px 5px 12px #777;
+    
+
+}
+
+
+input[type='button']{
+    cursor:normal;
+    width: 25%;
+    height:45px;
+    background-color: rgb(13, 13, 94);
+    border:2px solid ivory;
+    color:ivory;
+    font-size: 1.5em;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px #777;
+}
+
+
+input[type='button']:hover{
+     cursor:pointer;
+    background-color: rgb(87, 180, 241);
+    border:2px solid rgb(224, 224, 14);
+    color: rgb(13, 13, 94);
+}
+
+
+#calificacion{
+    position: relative;
+    top:40px;
+    margin:auto;
+    visibility: hidden;
+    width: 40%;
+    height: 60px;
+    background-color: #fcce0a;
+    border-radius: 25px;
+    box-shadow: 4px 5px 12px #777;
+}
+
+#nota{
+    position:relative;
+    top:30%;
+    text-align: center;
+    color:#9c0438;
+    font-size: 1.5em;
+}
